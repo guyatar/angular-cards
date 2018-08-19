@@ -1,0 +1,25 @@
+<div class="row">
+  <div class="col-lg-1 col-2 center-content arrow arrow-left">
+    <button type="button" class="btn btn-link" (click)="movePrevCard()" [disabled]="prevButtonDisabled()">
+      <i class="fas fa-chevron-left"></i>
+    </button>
+  </div>
+  <div class="col-lg-10 col-8 center-content">
+    <div class="row col-12">
+      <div class="col-4 center-content d-none d-lg-flex">
+        <app-card class="mx-auto prev" *ngIf="!prevButtonDisabled()" [card]="cards[activeCardIndex-1]" (click)="movePrevCard()"></app-card>
+      </div>
+      <div class="col-lg-4 col-12 center-content">
+        <app-card class="mx-auto active" [card]="cards[activeCardIndex]" [@slideInNext]="slideStateNext" [@slideInPrev]="slideStatePrev"></app-card>
+      </div>
+      <div class="col-4 center-content d-none d-lg-flex">
+        <app-card class="mx-auto next" *ngIf="!nextButtonDisabled()" [card]="cards[activeCardIndex+1]" (click)="moveNextCard()"></app-card>
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-1 col-2 center-content arrow arrow-right">
+    <button type="button" class="btn btn-link" (click)="moveNextCard()" [disabled]="nextButtonDisabled()">
+      <i class="fas fa-chevron-right"></i>
+    </button>
+  </div>
+</div>

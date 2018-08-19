@@ -1,0 +1,10 @@
+/* You can add global styles to this file, and also import other style files */
+
+.container, .container-fluid {
+    margin-top: 50px;
+}
+
+.center-content {
+    display: flex;
+    align-items: center;
+}

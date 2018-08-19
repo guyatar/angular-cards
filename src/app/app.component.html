@@ -1,0 +1,4 @@
+<app-navigation-bar></app-navigation-bar>
+<div class="container-fluid" [@routerTransition]="getState(o)">
+    <router-outlet #o="outlet"></router-outlet>
+</div>
