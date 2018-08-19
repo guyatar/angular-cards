@@ -65,11 +65,11 @@ var routerTransition = Object(_angular_animations__WEBPACK_IMPORTED_MODULE_0__["
         Object(_angular_animations__WEBPACK_IMPORTED_MODULE_0__["group"])([
             Object(_angular_animations__WEBPACK_IMPORTED_MODULE_0__["query"])(':enter', [
                 Object(_angular_animations__WEBPACK_IMPORTED_MODULE_0__["style"])({ transform: 'translateX(100%)' }),
-                Object(_angular_animations__WEBPACK_IMPORTED_MODULE_0__["animate"])('0.7s ease-in-out', Object(_angular_animations__WEBPACK_IMPORTED_MODULE_0__["style"])({ transform: 'translateX(0%)', opacity: 1 }))
+                Object(_angular_animations__WEBPACK_IMPORTED_MODULE_0__["animate"])('700ms ease-in-out', Object(_angular_animations__WEBPACK_IMPORTED_MODULE_0__["style"])({ transform: 'translateX(0%)', opacity: 1 }))
             ], { optional: true }),
             Object(_angular_animations__WEBPACK_IMPORTED_MODULE_0__["query"])(':leave', [
                 Object(_angular_animations__WEBPACK_IMPORTED_MODULE_0__["style"])({ transform: 'translateX(0%)' }),
-                Object(_angular_animations__WEBPACK_IMPORTED_MODULE_0__["animate"])('0.5s ease-in-out', Object(_angular_animations__WEBPACK_IMPORTED_MODULE_0__["style"])({ transform: 'translateX(-100%)' }))
+                Object(_angular_animations__WEBPACK_IMPORTED_MODULE_0__["animate"])('500ms ease-in-out', Object(_angular_animations__WEBPACK_IMPORTED_MODULE_0__["style"])({ transform: 'translateX(-100%)' }))
             ], { optional: true })
         ]),
         //Side arrows enter animation:
@@ -699,7 +699,7 @@ Object(_angular_platform_browser_dynamic__WEBPACK_IMPORTED_MODULE_1__["platformB
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\Users\guy.atar\Documents\Visual Code\Projects\angular-cards\angular-ui\src\main.ts */"./src/main.ts");
+module.exports = __webpack_require__(/*! C:\Users\guy.atar\Documents\Visual Code\Projects\angular-cards\src\main.ts */"./src/main.ts");
 
 
 /***/ })
